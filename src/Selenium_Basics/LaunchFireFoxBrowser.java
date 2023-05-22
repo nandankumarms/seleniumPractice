@@ -13,7 +13,7 @@ public class LaunchFireFoxBrowser {
 		//Wait for 2 seconds
 		Thread.sleep(2000);
 		
-		//Close driver
+		//Close Browser
 		driver.close();
 	}
 
