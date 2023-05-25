@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CssSelectorLocator {
 	public static void main(String[] args) throws InterruptedException {
-		//Set System property
+		       //Set System property
 				System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 				
 				//Launch chrome browser
@@ -20,10 +20,10 @@ public class CssSelectorLocator {
 				
 				Thread.sleep(2000);
 				
-				//Find User Name text field using tagName() locator
+				//Find User Name text field using cssSelector locator
 				driver.findElement(By.cssSelector("input[type='text']")).sendKeys("John");
 				
-				//Find Password text field using tagName() locator
+				//Find Password text field using cssSelector locator
 				driver.findElement(By.cssSelector("input[type='password']")).sendKeys("abcd@1234");
 				Thread.sleep(2000);
 				
